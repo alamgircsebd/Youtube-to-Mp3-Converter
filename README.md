@@ -16,7 +16,7 @@ http://alamgir.website/fromyoutubetomp3/
 Step1:
 git clone https://github.com/alamgircsebd/Youtube-to-Mp3-Converter.git
 
-Step2: Install plugin from wp-admin area
+Step2: Install and active plugin from wp-admin area
 
 Step3: Put the shortcode "[yttmp3-form]" into any page content  
 
