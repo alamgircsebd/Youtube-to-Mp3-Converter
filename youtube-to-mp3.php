@@ -43,7 +43,6 @@ Class Youtube_To_MP3_Converter{
         register_deactivation_hook(__FILE__, array( $this , 'yttmp3_plugin_deactive_func' ) );
 
         // register scripts and styles
-        add_action( 'init', array( $this , 'register_member_post_type') );
         add_action( 'admin_enqueue_scripts', array( $this, 'yttmp3_plugin_enqueue_scripts_admin') );
         add_action( 'wp_enqueue_scripts', array( $this, 'yttmp3_plugin_enqueue_scripts_frontend') );
 
@@ -133,13 +132,6 @@ Class Youtube_To_MP3_Converter{
      */
     public function yttmp3_plugin_uninstall() {
         // will add option in future
-    }
-
-    /*
-     * Register a example post type
-     */
-    public function register_member_post_type() {
-        register_post_type( 'members', ['public' => true, 'label' => 'Members'] );
     }
 
     /*
