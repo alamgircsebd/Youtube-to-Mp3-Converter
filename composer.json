@@ -1,6 +1,6 @@
 {
   "name": "alamgircsebd/Youtube-to-Mp3-Converter",
-  "description": "An youtube video to mp3 converter plugin for WordPress.",
+  "description": "Youtube video to mp3 converter plugin for WordPress.",
   "type": "wordpress-plugin",
   "license": "GPL2",
   "authors": [
