@@ -62,7 +62,7 @@ Class Youtube_To_MP3_Converter{
     }
 
     /**
-     * yttmp3_plugin_add_setting_link
+     * yttmp3 plugin add setting link
      *
      */
     public function yttmp3_plugin_add_setting_link( $links ) {
@@ -72,42 +72,42 @@ Class Youtube_To_MP3_Converter{
     }
 
     /**
-     * yttmp3_plugin_add_setting_pages
+     * yttmp3 plugin add setting pages
      */
     public function yttmp3_plugin_add_setting_pages() {
         add_menu_page('Youtube To MP3', 'Youtube To MP3', 'manage_options', 'youtube-to-mp3', array($this, 'yttmp3_plugin_setting_page_content'), 'dashicons-video-alt3', 110);
     }
 
     /**
-     * yttmp3_plugin_setting_page_content
+     * yttmp3 plugin setting page content
      */
     public function yttmp3_plugin_setting_page_content() {
         require_once dirname( __FILE__ ).'/templates/admin_settings_page.php';
     }
 
     /**
-     * yttmp3_create_short_code
+     * yttmp3 show form create short code
      */
     public function yttmp3_create_short_code() {
         require_once dirname( __FILE__ ).'/form.php';
     }
 
     /**
-     * yttmp3_get_video_to_mp3
+     * yttmp3 get video to mp3 create short code
      */
     public function yttmp3_get_video_to_mp3() {
         require_once dirname( __FILE__ ).'/getvideo.php';
     }
 
     /**
-     * yttmp3_get_video_to_mp3
+     * yttmp3 get video to mp3 image create short code
      */
     public function yttmp3_get_youtube_image() {
         require_once dirname( __FILE__ ).'/getimage.php';
     }
 
     /**
-     * yttmp3-download
+     * yttmp3 download
      */
     public function yttmp3_get_video_to_mp3_download() {
         require_once dirname( __FILE__ ).'/mp3_download.php';
@@ -171,7 +171,7 @@ Class Youtube_To_MP3_Converter{
 
     public function yttmp3_plugin_active_func() {
 
-        // create yttmp3-get-video-to-mp3 page
+        // create yttmp3 get video to mp3 page
         if( !$this->yttmp3_get_page_by_slug( 'youtube-video-to-mp3-convert' ) ) {
             $yttmp3_get_video_to_mp3 = array(
                 'post_title'    => 'Youtube Video to MP3 Convert',
@@ -182,7 +182,7 @@ Class Youtube_To_MP3_Converter{
             wp_insert_post($yttmp3_get_video_to_mp3);
         }
 
-        // create yttmp3-mp3-download
+        // create yttmp3 mp3 download page
         if( !$this->yttmp3_get_page_by_slug( 'youtube-video-to-mp3-download' ) ) {
             $yttmp3_get_download = array(
                 'post_title'    => 'Youtube Video to MP3 Download',
