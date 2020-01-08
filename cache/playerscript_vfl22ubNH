@@ -1,0 +1,1 @@
+a:2:{i:0;s:214:"{"decipherPatterns":["vf->(26)","uB->(1)","m2->(76)","uB->(2)","m2->(21)","uB->(1)","vf->(45)","m2->(24)"],"deciphers":{"m2":"a.reverse()","vf":"var c=a[0];a[0]=a[b%a.length];a[b%a.length]=c","uB":"a.splice(0,b)"}}";i:1;i:1577535041;}

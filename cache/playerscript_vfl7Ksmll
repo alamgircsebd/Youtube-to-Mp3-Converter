@@ -1,0 +1,1 @@
+a:2:{i:0;s:171:"{"decipherPatterns":["tA->(70)","dR->(2)","tA->(19)","dR->(3)"],"deciphers":{"yy":"a.reverse()","tA":"var c=a[0];a[0]=a[b%a.length];a[b%a.length]=c","dR":"a.splice(0,b)"}}";i:1;i:1576591308;}

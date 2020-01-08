@@ -1,0 +1,1 @@
+a:2:{i:0;s:161:"{"decipherPatterns":["S4->(2)","qC->(23)","CK->(64)"],"deciphers":{"qC":"var c=a[0];a[0]=a[b%a.length];a[b%a.length]=c","CK":"a.reverse()","S4":"a.splice(0,b)"}}";i:1;i:1576661726;}
